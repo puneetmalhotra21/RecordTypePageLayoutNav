@@ -1,0 +1,20 @@
+const myInterval = setInterval(myTimer, 4000);
+
+function myTimer() {
+  var rcrdType0 = document.getElementsByClassName("rtHeader")[0].childNodes[0].childNodes[0].title;
+  var rcrdType1 = document.getElementsByClassName("rtHeader")[1].childNodes[0].childNodes[0].title;
+  var rcrdType2 = document.getElementsByClassName("rtHeader")[2].childNodes[0].childNodes[0].title;
+  var rcrdType3 = document.getElementsByClassName("rtHeader")[3].childNodes[0].childNodes[0].title;
+		
+		// console.log(':::'+rcrdType0);
+		// console.log(':::'+rcrdType1);
+	//	console.log(':::'+rcrdType2);
+		// console.log(':::'+rcrdType3);
+		
+		if(rcrdType0=='DX AC Air Cooled_P_009_EM_0166' || rcrdType1=='DX AC Air Cooled_P_009_EM_0166' || rcrdType2=='DX AC Air Cooled_P_009_EM_0166' || rcrdType3=='DX AC Air Cooled_P_009_EM_0166'){
+			clearInterval(myInterval);
+		}
+		else{
+			document.getElementById("plaNextLink").click();
+		}
+}
