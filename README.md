@@ -1,5 +1,5 @@
 # RecordTypePageLayoutNav <br/>
-**Time Interval**:Salesforce Page takes time to load after click on 'Next Button' <br/>
+**Time Interval**:Salesforce Page takes time to load after click on 'Next Button'. So adjust the time ,in line 1, accordingly.  <br/>
 Open RecordPageLayout Assignment Page in Salesforce <br/>
 **Click on Next button and Skip first view to Start script**, <br/>
  After clicking Next button first time, Copy paste given Script in Dev Console <br/><br/>
