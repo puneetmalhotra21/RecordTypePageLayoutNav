@@ -11,7 +11,7 @@ function myTimer() {
 	//	console.log(':::'+rcrdType2);
 		// console.log(':::'+rcrdType3);
 		
-		if(rcrdType0=='DX AC Air Cooled_P_009_EM_0166' || rcrdType1=='DX AC Air Cooled_P_009_EM_0166' || rcrdType2=='DX AC Air Cooled_P_009_EM_0166' || rcrdType3=='DX AC Air Cooled_P_009_EM_0166'){
+		if(rcrdType0=='Your_RecordType_Label' || rcrdType1=='Your_RecordType_Label' || rcrdType2=='Your_RecordType_Label' || rcrdType3=='Your_RecordType_Label'){
 			clearInterval(myInterval);
 		}
 		else{
